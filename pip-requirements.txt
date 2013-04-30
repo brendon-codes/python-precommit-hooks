@@ -1,0 +1,2 @@
+pep8
+hg+https://bitbucket.org/logilab/pylint@default

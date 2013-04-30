@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##
+## Stockr pre-commit hook
+##
+## Name this file as .git/hooks/pre-commit
+## and set it to executable.
+##
+## @author BrendonCrawford
+##
+
+ROOT_DIR="/PATH/TO/ROOT/REPO"
+REPO_DIR="/PATH/TO/ROOT/OR/SUBMODULE/REPO"
+VALIDATION_DIR="/PATH/TO/python-validate"
+
+source "${VALIDATION_DIR}/hook-validate.bash"
+
